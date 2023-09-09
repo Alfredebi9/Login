@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* body of thepage */
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: antiquewhite;
+  height: 100vh;
+}
+.user-input{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+h1{
+text-align: center;
+color:goldenrod ;
+margin-bottom: 1em;
+}
+input{
+  width: 20em;
+  height: 3em;
+  border:none;
+  border-bottom: 2px solid black;
+  outline: none;
+  margin: 1em;
+}
+.submit-button{
+  margin-top: 1em;
+  align-self: center;
+  padding:0.5em 4em;
+  border: 0;
+  border-radius: 20px;
+  background-color: goldenrod;
+  position: absolute;
+  left:50% ;
+  transform:translate(-50%);
+}
+form{
+  position: relative;
+}
