@@ -63,3 +63,18 @@ img{
   grid-column: 12/16;
   grid-row: 16/18;
 }
+.back-to-top {
+  content: "\2191";
+  font-weight: bolder;
+  font-size: 20px;
+  position: fixed;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  bottom: 6rem;
+  right: 3.5rem;
+  background-color: gold;
+  color: white;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+}
